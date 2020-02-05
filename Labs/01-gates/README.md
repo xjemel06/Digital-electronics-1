@@ -38,4 +38,4 @@
 | 1 | 1 | 1 | 0 | 0 | 0 |
 
 
-![asecondtask](Screenshot_2020-02-05_13-50-17.png)
+![asecondtask](Screenshot_2020-02-05_14-01-25.png)
