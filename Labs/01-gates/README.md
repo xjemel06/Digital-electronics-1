@@ -24,7 +24,7 @@
     | 1 | 0 | 1 | 0 |
     | 1 | 1 | 0 | 1 |
 
-![and_gates](Screenshot_2020-02-05-13_50-17.png)
+![and_gates](Screenshot_2020-02-05-13-50-17.png)
 
     | **A** | **B** |**C** | ![equation](https://latex.codecogs.com/gif.latex?f) | ![equation](https://latex.codecogs.com/gif.latex?f_%7BAND%7D) | ![equation](https://latex.codecogs.com/gif.latex?f_%7BOR%7D) |
     | :-: | :-: | :-: | :-: | :-: | :-: |
