@@ -37,6 +37,8 @@ Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
 
+Prerequesities for Lab 2
+
 | **A** | **B** | **A>B** | **A=B** | **A<B** |
 | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0 | 0 | 1 | 0 |
