@@ -71,9 +71,12 @@ Create K-maps for all three functions.
 
 &nbsp;
 
-|**A>B**| **-**|
-| :-: | :-: |
+A>B
+
+&nbsp;
+
 | 0 | 0 |
+| :-: | :-: |
 | 1 | 0 |
 
 &nbsp;
