@@ -36,7 +36,9 @@ First Header | Second Header
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
-tag
+ 
+
+ 
 Prerequesities for Lab 2
 
 | **A** | **B** | **A>B** | **A=B** | **A<B** |
