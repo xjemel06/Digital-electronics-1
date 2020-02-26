@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/lab661/Documents/xjemel06/Digital-electronics-1/Labs/03-segment/hex_to_segment/top.xst" -ofn "/home/lab661/Documents/xjemel06/Digital-electronics-1/Labs/03-segment/hex_to_segment/top.syr" 
