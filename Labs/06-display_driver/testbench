@@ -1,0 +1,84 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+ 
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--USE ieee.numeric_std.ALL;
+ 
+ENTITY testbench IS
+END testbench;
+ 
+ARCHITECTURE behavior OF testbench IS 
+ 
+    -- Component Declaration for the Unit Under Test (UUT)
+ 
+    COMPONENT driver_7seg
+    PORT(
+    clk_i    : in  std_logic;
+    srst_n_i : in  std_logic;   -- Synchronous reset (active low)
+    data0_i  : in  std_logic_vector(4-1 downto 0);  -- Input values
+    data1_i  : in  std_logic_vector(4-1 downto 0);
+    data2_i  : in  std_logic_vector(4-1 downto 0);
+    data3_i  : in  std_logic_vector(4-1 downto 0);
+    dp_i     : in  std_logic_vector(4-1 downto 0);  -- Decimal points
+    
+    dp_o     : out std_logic;                       -- Decimal point
+    seg_o    : out std_logic_vector(7-1 downto 0);
+    dig_o    : out std_logic_vector(4-1 downto 0)
+	);
+    END COMPONENT;
+    
+
+   signal	s_en : std_logic;
+   signal   s_hex : std_logic_vector(4-1 downto 0);
+   signal   s_cnt : std_logic_vector(2-1 downto 0);
+   signal 	clk_i : std_logic;
+   signal 	srst_n_i : std_logic;
+   signal   data0_i  : std_logic_vector(4-1 downto 0);
+   signal   data1_i  : std_logic_vector(4-1 downto 0);
+   signal   data2_i  : std_logic_vector(4-1 downto 0);
+   signal   data3_i  : std_logic_vector(4-1 downto 0);
+   signal 	dp_i     : std_logic_vector(4-1 downto 0);
+ 
+
+ 
+BEGIN
+ 
+	-- Instantiate the Unit Under Test (UUT)
+   UUT: driver_7seg PORT MAP (clk_i => clk_i,
+   							dp_i => dp_i,
+   							srst_n_i => srst_n_i,
+                            data0_i => data0_i,
+                            data1_i => data1_i,
+                            data2_i => data2_i,
+                            data3_i => data3_i);
+
+   -- Clock process definitions
+--   <clock>_process :process
+--   begin
+--		<clock> <= '0';
+--		wait for <clock>_period/2;
+--	;	<clock> <= '1';
+--		wait for <clock>_period/2;
+--   end process;
+ 
+
+	process
+   	begin
+        dp_i <= "0000";
+		    data0_i <= "0000";
+        data1_i	<= "0011";
+        data2_i <= "0001";
+        data3_i	<= "0100";
+        srst_n_i <= '1';
+        clk_i <= '0';wait for 50 us;
+        clk_i <= '1';wait for 50 us;
+        clk_i <= '0';wait for 50 us;
+        clk_i <= '1';wait for 50 us;
+        clk_i <= '0';wait for 50 us;
+        clk_i <= '1';wait for 50 us;
+     
+        
+   	end process;
+
+end;
