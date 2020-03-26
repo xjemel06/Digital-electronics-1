@@ -7,3 +7,8 @@ Simulace v hexadecimální soustavě
 
 Simulace v binární soustavě
 ![taskone](simbin.png)
+
+
+
+Stavový diagram
+![taskone](statediagram.jpg)
