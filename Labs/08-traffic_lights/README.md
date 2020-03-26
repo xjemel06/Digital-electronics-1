@@ -11,4 +11,4 @@ Simulace v binární soustavě
 
 
 Stavový diagram
-
+![taskone](diagram.jpg)
