@@ -28,8 +28,8 @@ Schéma  č. 1: Vnitřní zapojéní struktury a připojení na desky
 &nbsp;
 
 
-
-
+## Výsledky
+ Pro názornější zobrazení výsledků jsou v prvním slově zvoleny všechny bity 1. Díky tomu jsou vidět start bit a parita se nezmění 
 &nbsp;
 ![taskone](bsim.png)
 
