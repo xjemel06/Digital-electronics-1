@@ -12,7 +12,7 @@ Schéma  č. 1: Vnitřní zapojéní struktury a připojení na desky
 &nbsp;
 
 &nbsp;
-![taskone](binarysimulation.png)
+![taskone](bsim.png)
 
 &nbsp;
 Diagram č. 1: Časový diagram s binárními čísly 
@@ -21,6 +21,6 @@ Diagram č. 1: Časový diagram s binárními čísly
 &nbsp;
 
 &nbsp;
-![taskone](hexasimulation.png)
+![taskone](hsim.png)
 &nbsp;
 Diagram č. 2: Časový diagram s hexadecimálními čísly 
