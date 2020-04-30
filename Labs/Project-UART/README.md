@@ -21,7 +21,7 @@ Start bit a stop bit slouží k určení délky a pomáhají čtení kódu přij
 &nbsp;
 
 
-## Struktura<2>
+## Struktura
 &nbsp;
 ![taskone](schema.png)
 Schéma  č. 1: Vnitřní zapojéní struktury a připojení na desky 
