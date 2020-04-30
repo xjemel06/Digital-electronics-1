@@ -6,4 +6,4 @@ Toto zpracování systému UART může volit mezi počet stop bitů, baud rate, 
 
 
 ![taskone](binarysimulation.png)
-![taskone](hexadecimalsimulation.png)
+![taskone](hexaimalsimulation.png)
