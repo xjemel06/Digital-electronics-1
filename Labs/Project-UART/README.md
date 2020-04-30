@@ -4,7 +4,7 @@
 &nbsp;
   
 ### Start bit a stop bit
-Start bit a stop bit slouží k určení délky a pomáhají čtení kódu přijímačem. U stop bitu můžeme zvolit jsetli bude jeden nebo budou dva. 
+Start bit a stop bit slouží k určení délky a pomáhají čtení kódu přijímačem. U stop bitu můžeme přepínačem zvolit jsetli bude jeden (1) nebo budou dva (0). 
 &nbsp;
   
 ### Datové bity
@@ -12,7 +12,7 @@ Start bit a stop bit slouží k určení délky a pomáhají čtení kódu přij
 &nbsp;
   
 ### Paritní bit
-  Paritní bit slouží ke kontrole stavu datových bitů. Jestli během přenosu dojde k chybě a jeden datový bit se změní je díky paritnímu bitu možné chybu odhalit.Pro tento projekt je zvolena parita jedniček. Podle toho zda je lichá nebo sudá doplní do slova buď 1 nebo 0.  Pravděpodobně nejjednodušším určním parity jsou použité logické funkce xor.
+  Paritní bit slouží ke kontrole stavu datových bitů. Jestli během přenosu dojde k chybě a jeden datový bit se změní je díky paritnímu bitu možné chybu odhalit. Pro tento projekt je zvolena parita jedniček. Podle toho zda je lichá nebo sudá doplní do slova buď 1 nebo 0.  Pravděpodobně nejjednodušším určním parity jsou použité logické funkce xor.
 &nbsp; 
 
 ### Baud rate
@@ -51,4 +51,4 @@ Simulace jsou dvě jedna v binární a druhá v hexadecimální soustavě. V bin
 &nbsp;
 ## Zdroje:
 * předchozí cvičení
-
+* vybrané partie jazyka VHDL
