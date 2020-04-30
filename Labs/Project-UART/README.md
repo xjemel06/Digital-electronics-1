@@ -34,6 +34,6 @@ Diagram č. 2: Časový diagram s hexadecimálními čísly
 
 &nbsp;
 # Zdroje:<h2>
-předchozí zadání
-www.digikey.com
+*předchozí zadání
+*www.digikey.com
 
