@@ -11,6 +11,9 @@
 Schéma  č. 1: Vnitřní zapojéní struktury a připojení na desky 
 &nbsp;
 
+
+
+
 &nbsp;
 ![taskone](bsim.png)
 
