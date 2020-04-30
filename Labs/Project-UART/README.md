@@ -16,7 +16,7 @@ Start bit a stop bit slouží k určení délky a pomáhají čtení kódu přij
 &nbsp; 
 
 ### Baud rate
-  Deska je nastavena na standardní kmitočet 1 MHz. Baud rate se tedy nastavuje dělením tohoto kmitočtu. Je možné tlačítkem vybrat ze dvou standardních baud rate (bitrate) 9600 bps a 19200 bps, 0 je pomalější a 1 rychlejší baud rate. 
+  Deska je nastavena na standardní kmitočet 1 MHz. Baud rate se tedy nastavuje dělením tohoto kmitočtu, proto je vybrán takto vysoký kmitočet aby byla chyba dělení co nejmenší. Je možné tlačítkem vybrat ze dvou standardních baud rate (bitrate) 9600 bps a 19200 bps, 0 je pomalější a 1 rychlejší baud rate. 
 &nbsp;
 
 
@@ -29,7 +29,7 @@ Schéma  č. 1: Vnitřní zapojéní struktury a připojení na desky
 
 
 ## Výsledky
- Pro názornější zobrazení výsledků jsou v prvním slově zvoleny všechny datové bity 1, parita je sudá a jeden stop bit.Je zvolen rychlejší bitrate. Díky tomu jsou vidět start bit a to že paritní bit se nezmění. Poté je systém restartován a jsou nastaveny nové parametry datové bity se rvonají 0, parita je lichá a dva stop bity.Také bitrate je zpomalen.  Na závěr je celý proces vypnut.
+ Pro názornější zobrazení výsledků jsou v prvním slově zvoleny všechny datové bity 1, parita je sudá a jeden stop bit. Je zvolen rychlejší bitrate. Díky tomu jsou vidět start bit a to že paritní bit se nezmění. Poté je systém restartován a jsou nastaveny nové parametry datové bity se rvonají 0, parita je lichá a dva stop bity.Také bitrate je zpomalen.  Na závěr je celý proces vypnut.
 &nbsp;
 
 &nbsp;
