@@ -47,8 +47,8 @@ Diagram č. 1: Časový diagram s binárními čísly
 Diagram č. 2: Časový diagram s hexadecimálními čísly 
 &nbsp;
 
-Simulace jsou dvě jedna v binární a druhá v hexadecimální soustavě. V binární soustavě jsou lépe vidět datové bity. V hexadecimální soustavě jsou pro člově výsledky názornější. 
+Simulace jsou dvě jedna v binární a druhá v hexadecimální soustavě. V binární soustavě jsou lépe vidět datové bity. V hexadecimální soustavě jsou čítače čitelnější. 
 &nbsp;
 ## Zdroje:
-* předchozí zadání
+* předchozí cvičení
 
