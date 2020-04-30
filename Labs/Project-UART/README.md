@@ -13,6 +13,8 @@ Toto zpracování systému UART může volit mezi počet stop bitů, baud rate, 
 &nbsp;
 Diagram č. 1: Časový diagram s binárními čísly 
 &nbsp;
+&nbsp;
+&nbsp;
 ![taskone](hexasimulation.png)
 &nbsp;
 Diagram č. 2: Časový diagram s hexadecimálními čísly 
