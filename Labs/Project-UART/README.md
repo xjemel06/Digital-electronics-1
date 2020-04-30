@@ -4,16 +4,22 @@
 &nbsp;  
    Za úkol jsme dostali pouze vysílač s možností nastavovaní parametrů vysílání.
 Toto zpracování systému UART může volit mezi počet stop bitů, baud rate, paritu či být resetováno. Datových bitů je 8.
-
-
+&nbsp;
 
 &nbsp;
+
+Schéma  č. 1: Vnitřní zapojéní struktury a připojení na desky 
+&nbsp;
+
 &nbsp;
 ![taskone](binarysimulation.png)
+
 &nbsp;
 Diagram č. 1: Časový diagram s binárními čísly 
 &nbsp;
+
 &nbsp;
+
 &nbsp;
 ![taskone](hexasimulation.png)
 &nbsp;
