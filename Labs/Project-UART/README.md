@@ -4,7 +4,7 @@
 &nbsp;
   
 ### Start bit a stop bit
-Start bit a stop bit slouží k určení délky a pomáhají čtení kódu přijímačem. U stop bitu můžeme přepínačem zvolit jsetli bude jeden (1) nebo budou dva (0). 
+Start bit a stop bit slouží k určení délky a pomáhají čtení kódu přijímačem. U stop bitu můžeme přepínačem zvolit jsetli bude jeden (0) nebo budou dva (1). 
 &nbsp;
   
 ### Datové bity
