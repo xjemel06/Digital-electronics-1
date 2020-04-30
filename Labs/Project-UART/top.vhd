@@ -8,14 +8,14 @@ use ieee.numeric_std.all;
 
 entity top is
 port( clk_i : in std_logic;     --clock signal
-	  SW15_CPLD : in std_logic; --data_i 0
-      SW11_CPLD : in std_logic; --data_i 1
-      SW7_CPLD : in std_logic;  --data_i 2
-      SW3_CPLD : in std_logic;  --data_i 3
-      SW14_CPLD :in std_logic;  --data_i 4
-      SW10_CPLD :in std_logic;  --data_i 5
-      SW6_CPLD :in std_logic;   --data_i 6
-      SW2_CPLD :in std_logic;   --data_i 7
+	  SW15_CPLD : in std_logic; --data_i 7
+      SW11_CPLD : in std_logic; --data_i 6
+      SW7_CPLD : in std_logic;  --data_i 5
+      SW3_CPLD : in std_logic;  --data_i 4
+      SW14_CPLD :in std_logic;  --data_i 3
+      SW10_CPLD :in std_logic;  --data_i 2
+      SW6_CPLD :in std_logic;   --data_i 1
+      SW2_CPLD :in std_logic;   --data_i 0
       BTN1 :in std_logic;		--reset
       SW12_CPLD :in std_logic;  --power
       SW8_CPLD :in std_logic;   --baud rate
