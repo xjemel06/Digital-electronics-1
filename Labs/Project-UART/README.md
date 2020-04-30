@@ -7,7 +7,7 @@ Toto zpracování systému UART může volit mezi počet stop bitů, baud rate, 
 &nbsp;
 
 &nbsp;
-![taskone](s.png)
+![taskone](schema.png)
 Schéma  č. 1: Vnitřní zapojéní struktury a připojení na desky 
 &nbsp;
 
