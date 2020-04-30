@@ -1,7 +1,10 @@
 # Projekt - UART<h1>
+  
+## Zadání<h2>
   Universal asynchronous reciever-transmitter tedy univerzální asynchronní přijímač-vysílač. Slouží k sériové komunikaci s možností změny parametru. Signál vysílá po slovech začínajících start bitem a dále pokračujícími datovými bity s hlavní informací, paritním bitem a stop bitem. Start bit a stop bit slouží k určení délky slova pro přijímač. Paritní bit slouží ke kontrole stavu datových bitů. Podle toho zda je lichá nebo sudá doplní do slova buď 1 nebo 0. Datové bity jsou samotná informace, kterou chceme vysílat či přijímat.
 &nbsp;
-  
+
+### Dataové bity<h3>
 &nbsp;  
    Za úkol jsme dostali vytvořit pouze vysílač s možností nastavovaní parametrů vysílání. Parametry které je možné měnit jsou dříve zmíněné části slova kromě stavu start a stop bitu. U stop bitu můžeme zvolit jsetli bude jeden nebo budou dva.
    
@@ -33,7 +36,7 @@ Diagram č. 2: Časový diagram s hexadecimálními čísly
 &nbsp;
 
 &nbsp;
-# Zdroje:<h2>
+## Zdroje:<h2>
 * předchozí zadání
 * www.digikey.com
 
