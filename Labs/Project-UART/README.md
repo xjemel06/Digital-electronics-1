@@ -22,6 +22,7 @@ Start bit a stop bit slouží k určení délky a pomáhají čtení kódu přij
 
 
 ## Struktura
+Hlavními prvky programu jsou dva bloky clock_enable a multiplexer. Clock_enable pracuje s kmitočty a pomáhá synchronizovat celý program a jednotlivé bloky. Zároveň se v něm nachází hlavní vypínač . Multiplexer sdružuje všechny bity a následné je vysílá tak aby bylo možné je zase zpracovat. Pro program byl zvolen synchronní reset.
 &nbsp;
 ![taskone](schema.png)
 Schéma  č. 1: Vnitřní zapojéní struktury a připojení na desky 
