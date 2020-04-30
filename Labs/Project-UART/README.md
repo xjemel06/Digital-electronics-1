@@ -30,7 +30,7 @@ Schéma  č. 1: Vnitřní zapojéní struktury a připojení na desky
 
 
 ## Výsledky
- Pro názornější zobrazení výsledků jsou v prvním slově zvoleny všechny bity 1. Díky tomu jsou vidět start bit a parita se nezmění 
+ Pro názornější zobrazení výsledků jsou v prvním slově zvoleny všechny datové bity 1, parita je sudá a jeden stop bit.Je zvolen rychlejší bitrate. Díky tomu jsou vidět start bit a to že paritní bit se nezmění. Poté je systém restartován a jsou nastaveny nové parametry datové bity se rvonají 0, parita je lichá a dva stop bity.Také bitrate je zpomalen.  Na závěr je celý proces vypnut.
 &nbsp;
 ![taskone](bsim.png)
 
