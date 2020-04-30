@@ -21,7 +21,7 @@ Start bit a stop bit slouží k určení délky a pomáhají čtení kódu přij
 
 
 ## Struktura
-Hlavními prvky programu jsou dva bloky clock_enable a multiplexer. Clock_enable pracuje s kmitočty a pomáhá synchronizovat celý program a jednotlivé bloky. Zároveň se v něm nachází hlavní vypínač . Multiplexer sdružuje všechny bity a následné je vysílá tak aby bylo možné je zase zpracovat. Pro program byl zvolen synchronní reset.
+Hlavními prvky programu jsou dva bloky clock_enable a multiplexer. Clock_enable pracuje s kmitočty a pomáhá synchronizovat celý program a jednotlivé bloky. Zároveň se v něm nachází hlavní vypínač . Multiplexer sdružuje všechny bity a následné je vysílá tak aby bylo možné je zase zpracovat. Pro program byl zvolen synchronní reset. Aby byl výsledek aspoň nějak zobrazen na desce je výstup z multiplexeru přiveden na LED. Při takto vysokém kmitočtu sice není lidské oko schopné vnímat rozdíly ale strojové by mohl být snímán.
 &nbsp;
 ![taskone](schema.png)
 Schéma  č. 1: Vnitřní zapojéní struktury a připojení na desky 
@@ -47,7 +47,7 @@ Diagram č. 1: Časový diagram s binárními čísly
 Diagram č. 2: Časový diagram s hexadecimálními čísly 
 &nbsp;
 
-Simulace jsou dvě jedna v binární a druhá v hexadecimální soustavě. V binární soustavě jsou lépe vidět datové bity. V hexadecimální soustavě jsou pro lidské oko výsledky názornější. 
+Simulace jsou dvě jedna v binární a druhá v hexadecimální soustavě. V binární soustavě jsou lépe vidět datové bity. V hexadecimální soustavě jsou pro člově výsledky názornější. 
 &nbsp;
 ## Zdroje:
 * předchozí zadání
