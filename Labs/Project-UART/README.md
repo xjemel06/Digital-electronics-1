@@ -1,9 +1,9 @@
 # Projekt - UART
   Universal asynchronous reciever-transmitter tedy univerzální asynchronní přijímač-vysílač. Slouží k sériové komunikaci s možností změny parametru. Signál vysílá po slovech začínajících start bitem a dále pokračujícími datovými bity s hlavní informací, paritním bitem a stop bitem. Start bit a stop bit slouží k určení délky slova pro přijímač. Paritní bit slouží ke kontrole stavu datových bitů. Datové bity jsou samotná informace, kterou chceme vysílat či přijímat.
+&nbsp;
   
 &nbsp;  
-   Za úkol jsme dostali pouze vysílač s možností nastavovaní parametrů vysílání.
-Toto zpracování systému UART může volit mezi počet stop bitů, baud rate, paritu či být resetováno. Datových bitů je 8.
+   Za úkol jsme dostali vytvořit pouze vysílač s možností nastavovaní parametrů vysílání. Parametry které je možné měnit jsou dříve zmíněné části slova kromě start a stop bitu. Dále je možné tlačítkem vybrat si ze dvou standardních baud rate (bitrate) 9600 bps a 19200 bps, 0 je pomalější a 1 rychlejší baud rate . Paritu lze nastavit sudou nebo lichou tlačítkem, kde 0 je sudá a 1 lichá parita. 
 &nbsp;
 
 &nbsp;
