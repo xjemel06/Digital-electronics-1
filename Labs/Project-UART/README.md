@@ -31,6 +31,8 @@ Schéma  č. 1: Vnitřní zapojéní struktury a připojení na desky
 ## Výsledky
  Pro názornější zobrazení výsledků jsou v prvním slově zvoleny všechny datové bity 1, parita je sudá a jeden stop bit.Je zvolen rychlejší bitrate. Díky tomu jsou vidět start bit a to že paritní bit se nezmění. Poté je systém restartován a jsou nastaveny nové parametry datové bity se rvonají 0, parita je lichá a dva stop bity.Také bitrate je zpomalen.  Na závěr je celý proces vypnut.
 &nbsp;
+
+&nbsp;
 ![taskone](bsim.png)
 
 &nbsp;
@@ -45,6 +47,7 @@ Diagram č. 1: Časový diagram s binárními čísly
 Diagram č. 2: Časový diagram s hexadecimálními čísly 
 &nbsp;
 
+Simulace jsou dvě jedna v binární a druhá v hexadecimální soustavě. V binární soustavě jsou lépe vidět datové bity. V hexadecimální soustavě jsou pro lidské oko výsledky názornější. 
 &nbsp;
 ## Zdroje:
 * předchozí zadání
