@@ -19,7 +19,7 @@ generic ( g_sbit1 : unsigned(3 downto 0) := "1010";
        clk_en_i: in std_logic;                     --clock signal from enable
  	   data_i : in std_logic_vector(8-1 downto 0); --data bits
        parity_i : in std_logic;                    --parity even/odd,0/1
-       stopbits_i : in std_logic;  				   --number of stop bits 1/2,1/0
+       stopbits_i : in std_logic;  				   --number of stop bits 1/2,0/1
  	   mux_o: out std_logic                        --output
  		);
         
