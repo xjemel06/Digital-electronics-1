@@ -1,5 +1,4 @@
 # Projekt - UART<h1>
-
 ## Zadání<h2>
   Universal asynchronous reciever-transmitter tedy univerzální asynchronní přijímač-vysílač. Slouží k sériové komunikaci s možností změny parametru. Signál vysílá po slovech začínajících start bitem a dále pokračujícími datovými bity s hlavní informací, paritním bitem a stop bitem. Za úkol jsme dostali vytvořit pouze vysílač s možností nastavovaní parametrů vysílání.
 &nbsp;
@@ -9,11 +8,11 @@ Start bit a stop bit slouží k určení délky a pomáhají čtení kódu přij
 &nbsp;
   
 ### Datové bity<h3>
-  Datové bity jsou samotná informace, kterou chce uživatel vysílat či přijímat. Jsou ovládáné přepínači na přídavné desce. Dohromady je jich 8.
+  Datových bitů je 8 a nesou samotnou informaci zprávy, kterou chce uživatel vysílat či přijímat. Jsou ovládáné přepínači na přídavné desce. 
 &nbsp;
   
 ### Paritní bit<h3>
-  Paritní bit slouží ke kontrole stavu datových bitů. Podle toho zda je lichá nebo sudá doplní do slova buď 1 nebo 0.Paritu lze nastavit sudou nebo lichou tlačítkem, kde 0 je sudá a 1 lichá parita. Pro tento projekt je zvolena parita jedniček. Pravděpodobně nejjednodušším řešením jsou použité logické funkce xor.
+  Paritní bit slouží ke kontrole stavu datových bitů. Jestli během přenosu dojde k chybě a jeden datový bit se změní je díky paritnímu bitu možné chybu odhalit.Pro tento projekt je zvolena parita jedniček. Podle toho zda je lichá nebo sudá doplní do slova buď 1 nebo 0.  Pravděpodobně nejjednodušším určním parity jsou použité logické funkce xor.
 &nbsp; 
 
 ### Baud rate<h3>
